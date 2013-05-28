@@ -1,0 +1,22 @@
+{
+    "name" : "whatsupdoc",
+    "description" : "",
+    "keywords" : ["documentation", "generator", "code"]
+    "author" : "Christophe Eymard <ceymard@optilian.com>",
+    "version" : "0.1.1",
+    "homepage" : "http://github.com/ceymard/whatsupdoc",
+    "repository" : {
+        "type": "git", 
+        "url": "https://github.com/ceymard/whatsupdoc"
+    },
+    "engines"     : {"node": ">= 0.10.x"},
+    "directories" : { "lib" : "./lib"  },
+    "bin" : {
+        "whatsupdoc": "./lib/whatsupdoc.js"
+    },
+    "dependencies" : { 
+        "optimist": "0.2.3"
+    },
+    "devDependencies" : {
+    }
+}
