@@ -1,4 +1,4 @@
 whatsupdoc
 ==========
 
-A generic code documentation tool.
+A generic code documentation extracting tool
